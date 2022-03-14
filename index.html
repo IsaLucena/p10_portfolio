@@ -1,0 +1,399 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <style type="text/css">
+        
+    
+    :root{
+        --blanco: #ffffff;
+        --black: #000000;
+        --chicle: palevioletred;
+        --Avenir: 'Avenir LT Std' , sans-serif;
+        --Italiana: 'italiana' , sans-serif;
+        --Courier: 'courier', monospace;
+    }
+    @font-face {
+        font-family: 'Avenir';
+        src: url(AvenirLTStd-Book.otf);
+        font-family: 'Courier New', monospace;
+        src: url(courbd.ttf)
+    }
+    
+    body>header .container{
+        background-color: var(--verde);
+        display: flex;
+        flex-direction: column;
+        padding: 100px 0;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    .container>div{
+        display: flex;  
+        flex-direction: column;
+          
+      
+      
+    }
+    nav a{
+        font-size: 1em;
+        padding: 5em;
+        font-family: var(--Courier);
+        color: var(--blanco);
+        text-align: center;
+        font-weight: bold;
+        
+        
+    }
+    nav a:hover{
+        color: var(--chicle)
+    }
+    h1{
+        font-family: var(--Italiana);
+        letter-spacing: .2em;
+        font-size: 6em;
+        color: var(--blanco)
+        
+
+    }
+    h1:hover{
+        color: var(--chicle)
+    }
+    h2{
+        font-family: var(--Courier);
+        font-size: 0.90em;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        color: var(--blanco);
+        text-align: center;
+        justify-content: center
+        
+        
+        
+        
+       
+    }
+    h2:hover{
+        color:green;
+    }
+    body{
+        background-color: var(--black);
+    }
+    main .container{
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 200px);
+        justify-content: center;
+        background-color: var(--black);
+    
+}
+
+
+    footer .container{
+        display: flex;
+        padding: 350px 0;
+        padding-bottom: 100px;
+  
+    }
+    footer p{
+        padding: 4em;
+        text-align: center;
+        font-family: var(--Avenir);
+        color: var(--blanco)
+    }
+    a:hover{
+        color: green;
+    }
+   .linea1{
+        border-top: 1px solid var(--blanco);
+        height: 2px;
+        max-width: 1500px;
+        padding bottom: 100px;
+        margin: 20px auto 0 auto;
+   }
+   .linea2{
+        border-top: 1px solid green;
+        height: 2px;
+        max-width: 1500px;
+        padding bottom: 100px;
+        margin: 20px auto 0 auto;
+        top: 300px;
+        position: relative;
+   }
+  
+   a{
+            text-decoration: none;
+            color: palevioletred;
+        }
+    .e1:hover, .e2:hover, .e3:hover, .e4:hover, .e5:hover, .e6:hover, .e7:hover, .e8:hover, .e9:hover, .e10:hover, .e11:hover, .e12:hover, .e13:hover, .e14:hover, .e15:hover.
+    {
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        
+     }
+.e1:hover{
+    background-image: url('../img/p1.png');
+}
+.e2:hover{
+    background-image: url('../img/p2.png');
+}
+.e3:hover{
+    background-image: url('../img/p3.png');
+}
+.e4:hover{
+    background-image: url('../img/p4.png');
+}
+.e5:hover{
+    background-image: url('../img/p5.png');
+}
+.e6:hover{
+    background-image: url('../img/p6.png');
+}
+.e7:hover{
+    background-image: url('../img/p7.png');     
+}
+.e8:hover{
+    background-image: url('../img/p8.png');     
+}
+.e9:hover{
+    background-image: url('../img/p9.png');     
+}
+.e11:hover{
+    background-image: url('../img/p11.png');     
+}
+.e12:hover{
+    background-image: url('../img/p12.png');     
+}
+.e13:hover{
+    background-image: url('../img/p13.png');     
+}
+.e14:hover{
+    background-image: url('../img/p14.png');     
+}
+.e15:hover{
+    background-image: url('../img/p15.png');
+}
+.e1 {
+    border: 1px solid #ffffff;
+}
+.e2 {
+    border: 1px solid #ffffff;
+}
+.e3 {
+    border: 1px solid #ffffff;
+}
+.e4 {
+    border: 1px solid #ffffff;
+}
+.e5 {
+    border: 1px solid #ffffff;
+}
+.e6 {
+    border: 1px solid #ffffff;
+}
+.e7 {
+    border: 1px solid #ffffff;
+}
+.e8 {
+    border: 1px solid #ffffff;
+}
+.e9 {
+    border: 1px solid #ffffff;
+}
+.e10 {
+    border: 1px solid #ffffff;
+}
+.e11 {
+    border: 1px solid #ffffff;
+}
+.e12 {
+    border: 1px solid #ffffff;
+}
+.e13 {
+    border: 1px solid #ffffff;
+}        
+.e14 {
+    border: 1px solid #ffffff;
+}
+.e15 {
+    border: 1px solid #ffffff;
+}
+@media (max-width: 1024px){
+    body{
+        flex-direction: column;
+    }
+    body>header .container{
+        position: relative;
+        width: 100%;
+    }
+    .container>div{
+        display: flex;  
+        flex-direction: column;
+    }
+    main .container{
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 200px);
+        justify-content: center;
+        background-color: var(--black);
+    
+}
+    footer .container{
+        display: flex;
+        padding: 350px 0;
+        padding-bottom: 100px;
+  
+    }
+    footer p{
+        padding: 4em;
+        text-align: center;
+        font-family: var(--Avenir);
+        color: var(--blanco)
+    }
+} 
+
+@media (max-width: 600px){
+    body{
+        flex-direction: column;
+    }
+    body>header .container{
+        position: relative;
+        width: 100%;
+    }
+    .container>div{
+        display: flex;  
+        flex-direction: column;
+    }
+    main .container{
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(14, 200px);
+        justify-content: center;
+        background-color: var(--black);
+    
+}
+    footer .container{
+        display: flex;
+        padding: 350px 0;
+        padding-bottom: 100px;
+        flex-direction: column;
+  
+    }
+    footer p{
+        padding: 4em;
+        text-align: center;
+        font-family: var(--Avenir);
+        color: var(--blanco)
+    }
+    
+    
+} 
+
+</style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <nav>
+        <a href="https://github.com/IsaLucena">Portfolio</a>
+        <a href="https://lucenafotografia.wixsite.com/isabellucena/contacto">Contcacto</a>
+        <a href="https://lucenafotografia.wixsite.com/isabellucena">Quién soy</a>
+        <div class="linea1"></div>
+        </nav>
+        <h1>Isabel</h1>
+    </div>
+</header> 
+<Main>
+    <div class="container">
+        <div class="e1">
+            <header>
+                <a href=" https://isalucena.github.io/p1_llocweb/"><h2>1.Lugarweb</h2></a>
+             </header>
+        </div>
+       <div class="e2">
+            <header>
+                <a href=" https://isalucena.github.io/p2_enlaces/"><h2>2.Enlaces</h2></a>
+            </header>
+        </div>
+        <div class="e3">
+            <header>
+                <a href="https://isalucena.github.io/p3_img/"><h2>3.Img</h2></a>
+            </header>
+        </div>
+        <div class="e4">
+            <header>
+                <a href="https://isalucena.github.io/p4_img_video_audio/"><h2>4.Img_video_audio</h2></a>      
+            </header>
+        </div>
+        <div class="e5">
+            <header>
+                <a href="https://isalucena.github.io/p5_gallery/"><h2>5.Gallery</h2></a>
+            </header>
+        </div>
+        <div class="e6">
+            <header>
+                <a href="https://isalucena.github.io/p6_grid/"><h2>6.Grid - Responsive :-)</h2></a>
+            </header>
+        </div>
+        <div class="e7">
+            <header>
+                <a href="https://isalucena.github.io/p7_neoplasticismo/"><h2>7.Neoplasticismo</h2></a>  
+            </header>
+        </div>
+        <div class="e8">
+            <header>
+                <a href="https://isalucena.github.io/p8_portfolio/"><h2>8.Portfolio</h2></a>    
+            </header>
+        </div>
+        <div class="e9">
+            <header>
+                <a href="https://isalucena.github.io/p9_animacion/"><h2>9.Animación</h2></a>    
+            </header>
+            </div>
+        
+        <div class="e11">
+            <header>
+                <a href="https://isalucena.github.io/p_11selector/"><h2>11.selector</h2></a>    
+            </header>
+        </div>
+        <div class="e12">
+            <header>
+                <a href="https://isalucena.github.io/p12_events/"><h2>12.events</h2></a>    
+            </header>
+        </div>
+        <div class="e13">
+            <header>
+                <a href="https://isalucena.github.io/p13_js_gallery/"><h2>13.js_gallery</h2></a>    
+            </header>
+        </div>
+        <div class="e14">
+            <header>
+                <a href="https://isalucena.github.io/p14_gallerydownload/"><h2>14.js_gallerydownload</h2></a>    
+            </header>
+        </div>
+        <div class="e15">
+            <header>
+                <a href="https://isalucena.github.io/p15_constructivismoruso/"><h2>15.constructivisme</h2></a>    
+            </header>
+        </div>
+        
+    </div>
+</Main>
+<footer>
+    <div class="linea2"></div>
+    <div class="container">
+        <p><a href="https://github.com/IsaLucena">Github</a></p>
+        <p><a href="https://www.facebook.com/Isabel-Lucena-Fotograf%C3%ADa-399701690190052">Facebook</a></p>
+        <p><a href="https://www.instagram.com/lucenafotografiaidisseny/">Instagram</a></p>
+    </div>
+    
+</footer>  
+</body>
+</html>
